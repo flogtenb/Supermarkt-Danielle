@@ -12,10 +12,6 @@ public class Product {
 
     /**
      * Deze constructor geeft een product bij aanmaak een naam, prijs en type van aanbieding mee, zodat je daarmee later de berekening kan maken van de prijs
-     * @param productName
-     * @param price
-     *
-     * type product is dan item A, B, C, D, etc.
      */
     public Product(String productName, int price, int quantity){
         this.productName = productName;
@@ -43,13 +39,13 @@ public class Product {
         this.price = price;
     }
 
-    public String getTypeOffer() {
-        return typeOffer;
-    }
+    //public String getTypeOffer() {
+    //    return typeOffer;
+    //}
 
-    public void setTypeOffer(String typeOffer) {
-        this.typeOffer = typeOffer;
-    }
+   // public void setTypeOffer(String typeOffer) {
+    //    this.typeOffer = typeOffer;
+    //}
 
     public int getQuantity() {
         return quantity;
