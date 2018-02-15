@@ -21,6 +21,8 @@ public abstract class Customer {
 
     public abstract void addToBasket(Product product);
 
+    public abstract void clear();
+
     public ArrayList<Product> getBasket() {
         return this.basket;
     }

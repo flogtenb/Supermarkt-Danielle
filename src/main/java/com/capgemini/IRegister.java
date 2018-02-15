@@ -34,7 +34,7 @@ public interface IRegister {
      * - de type
      * @return een int met de korting
      */
-    int calculateDiscount();
+    int calculateDiscount(ArrayList<Product> basket);
 
 
     /**
